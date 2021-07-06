@@ -1,0 +1,358 @@
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Courgette', cursive;
+    font-family: 'Russo One', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+/* Header Start */
+
+header {
+    display: flex;
+    margin: 1% 5%;
+}
+
+header .logo {
+    flex: 20%;
+}
+
+header .menu ul {
+    flex: 60%;
+    list-style: none;
+    margin: 7% 0%;
+}
+
+header .menu ul li {
+    display: inline-block;
+    padding: 5px 20px;
+    padding-right: 2;
+    text-transform: uppercase;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+    cursor: pointer;
+    font-family: 'Russo One', sans-serif;
+}
+
+header .icon {
+    flex: 20%;
+    text-align: right;
+    margin: 3% 0%;
+}
+
+header .icon img {
+    margin: 0% 5%;
+}
+
+/* Header End */
+
+/* Main Start */
+
+/* Cover 1 Start */
+
+.cover-1 {
+    display: flex;
+    margin: 0% 5%;
+}
+
+.text-1 {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.arther {
+    padding-left: 70%;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+span {
+    background: linear-gradient(90deg, orange, red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cover-1 p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.button {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, red);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.image-1 {
+    width: 50%;
+}
+
+.image-1 img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Cover 1 End */
+
+/* Cover 2 Start */
+
+.cover-2-bg {
+    margin: 5% 0%;
+    background-image: url(image/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cover-2 {
+    display: flex;
+    margin: 0% 5%;
+}
+
+.text-2 {
+    width: 50%;
+    margin: 8% 5% 0% 2%;
+}
+
+.cover-2 p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.cover-2 span {
+    text-transform: uppercase;
+    color: orange;
+}
+
+.image-2 {
+    width: 50%;
+}
+
+.image-2 img {
+    width: 80%;
+    margin-right: 10%;
+}
+
+/* Cover 2 End */
+
+/* Box Model */
+
+.recipies-text {
+    margin: 0% 25%;
+    text-align: center;
+}
+
+.recipies-box {
+    display: flex;
+    margin: 5% 5%;
+}
+
+.recipies-box .box {
+    box-shadow: 2px 2px 10px #cecece;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 20px 20px 8px 8px;
+    width: 25%;
+}
+
+.recipies-box .box img {
+    width: 100%;
+}
+
+.recipies-box h3 {
+    font-family: 'Abril Fatface', cursive;
+    padding: 15px 0px;
+    color: rgb(97, 97, 97);
+    font-size: 120%;
+}
+
+.recipies-box p {
+    margin-bottom: 20px;
+    font-size: 90%;
+}
+
+.recipies-box .details {
+    display: flex;
+}
+
+.button-2 {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, red);
+    padding: 2% 5%;
+    width: 45%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.price {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(97, 97, 97);
+    padding-left: 27%;
+}
+
+.recipies-count {
+    display: flex;
+    margin: 10% 5%;
+    padding: 3% 0%;
+    text-align: center;
+    box-shadow: 2px 2px 10px #cecece;
+    border-radius: 20px;
+}
+
+.recipies-count .count {
+    flex: 33%;
+}
+
+/* Box Model End */
+
+/* Partner Logo Start */
+
+.hor {
+    margin: 0% 5%;
+    color: rgb(255, 255, 255);
+}
+
+.partner-logo {
+    display: flex;
+    margin: 5% 5%;
+    padding: 3% 0%;
+}
+
+.partner-logo img {
+    width: 20%;
+    height: 10%;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+/* Partner Logo End */
+
+/* Subscribe Section Start */
+
+.subscribe {
+    display: flex;
+    margin: 5% 0%;
+    padding: 8% 0%;
+    background-color: rgb(231, 231, 231);
+}
+
+.subscribe .sub {
+    width: 40%;
+    margin: 0% 5%;
+}
+
+.subscribe h3 {
+    font-family: 'Abril Fatface', cursive;
+    padding: 10px 0px;
+    color: rgb(129, 129, 129);
+    font-size: 130%;
+}
+
+.subscribe .form {
+    width: 60%;
+    margin: 0% 5%;
+}
+
+.subscribe input {
+    width: 80%;
+    padding: 22px 20px;
+    margin: 3% 0%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.button-3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Subscribe Section End */
+
+/* Footer Section Start */
+
+.location {
+    display: flex;
+    margin: 5% 5%;
+}
+
+.low {
+    color: rgb(88, 88, 88);
+}
+
+.location .f-1 {
+    width: 40%;
+    padding: 0% 2%;
+}
+
+.f-1 p {
+    margin: 8% 0%;
+}
+
+.f-1 li {
+    padding: 2% 0%;
+}
+
+.location .f-2 {
+    width: 15%;
+    padding: 3% 2%;
+}
+
+.f-2 li {
+    padding: 8% 0%;
+}
+
+.location .f-3 {
+    width: 15%;
+    padding: 3% 2%;
+}
+
+.f-3 li {
+    padding: 8% 0%;
+}
+
+.pad {
+    margin-bottom: 30%;
+    font-size: 140%;
+}
+
+.location .f-4 {
+    width: 30%;
+    padding: 0% 2%;
+    margin-top: 3%;
+}
+
+.location ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.rights {
+    text-align: center;
+    color: rgb(170, 170, 170);
+    padding: 3%;
+}
+
+/* Footer Section End */
