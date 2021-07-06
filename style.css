@@ -308,7 +308,8 @@ span {
 }
 
 .f-1 p {
-    margin: 8% 0%;
+    margin: 5% 0%;
+    text-align: justify;
 }
 
 .f-1 li {
